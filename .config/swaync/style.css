@@ -1,0 +1,197 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", sans-serif;
+  font-size: 14px;
+  color: #d3c6aa;
+}
+
+/* popup notifications */
+.notification-row {
+  outline: none;
+}
+
+.notification {
+  border-radius: 12px;
+  margin: 6px 12px;
+  padding: 0;
+  background: #272e33;
+  border: 1px solid #414b50;
+}
+
+.notification-content {
+  padding: 10px;
+  background: transparent;
+}
+
+.notification-group {
+  background: #272e33;
+  border: 1px solid #414b50;
+  border-radius: 14px;
+  padding: 6px;
+  margin: 8px;
+}
+
+.notification-group-headers {
+  color: #a7c080;
+  font-weight: bold;
+  padding: 4px 8px;
+}
+
+.notification-group-icon {
+  color: #d3c6aa;
+}
+
+.notification-group-collapse-button,
+.notification-group-close-all-button {
+  background: transparent;
+  border-radius: 8px;
+  padding: 4px;
+  color: #d3c6aa;
+}
+
+.notification-group-collapse-button:hover,
+.notification-group-close-all-button:hover {
+  background: #374145;
+}
+
+.summary {
+  font-weight: bold;
+  color: #a7c080;
+}
+
+.time {
+  color: #859289;
+  font-size: 12px;
+}
+
+.body {
+  color: #d3c6aa;
+  margin: 9px;
+}
+
+.close-button {
+  background: transparent;
+  color: #e67e80;
+  border-radius: 8px;
+  margin: 6px;
+  padding: 2px;
+}
+
+.close-button:hover {
+  background: #493b40;
+}
+
+.notification-action {
+  background: #2e383c;
+  border: 1px solid #414b50;
+  border-radius: 8px;
+  margin: 4px;
+  color: #7fbbb3;
+}
+
+.notification-action:hover {
+  background: #374145;
+}
+
+.critical {
+  border: 1px solid #e67e80;
+}
+
+/* control center panel */
+.control-center {
+  background: #1e2326;
+  border: 1px solid #414b50;
+  border-radius: 14px;
+  padding: 10px;
+  margin: 8px;
+  animation: slide-in 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.widget-title {
+  color: #dbbc7f;
+  font-size: 16px;
+  margin: 8px;
+}
+
+.widget-title button {
+  background: #2e383c;
+  border: 1px solid #414b50;
+  border-radius: 8px;
+  padding: 4px 10px;
+  color: #d3c6aa;
+}
+
+.widget-title button:hover {
+  background: #374145;
+}
+
+.widget-dnd {
+  margin: 8px;
+  color: #d3c6aa;
+}
+
+.widget-dnd > switch {
+  background: #414b50;
+  border-radius: 12px;
+  border: none;
+}
+
+.widget-dnd > switch:checked {
+  background: #a7c080;
+}
+
+.widget-dnd > switch slider {
+  background: #d3c6aa;
+  border-radius: 12px;
+}
+
+.widget-mpris,
+.widget-volume,
+.widget-backlight {
+  background: #272e33;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 8px;
+}
+
+trough {
+  background: #414b50;
+  border-radius: 999px;
+}
+
+trough highlight {
+  background: #a7c080;
+  border-radius: 999px;
+}
+
+.widget-buttons-grid {
+  background: #272e33;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+  background: #2e383c;
+  border-radius: 10px;
+  color: #d3c6aa;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+  background: #374145;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    margin-top: -30px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 12px;
+  }
+}
+
