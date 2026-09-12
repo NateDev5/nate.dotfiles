@@ -1,2 +1,4 @@
-alias dot='fgit --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+#!/bin/sh
+git init --bare $HOME/.dotfiles
+alias dot='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 dot config status.showUntrackedFiles no
